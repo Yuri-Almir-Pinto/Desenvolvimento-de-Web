@@ -1,0 +1,43 @@
+.cabeçalho {
+    background-color: #008001;
+    border: 1px solid #008001;
+    padding: 3%;
+    text-align: center;
+}
+.titulo1{
+    text-align: center;
+    color: white;
+    display: block;
+    font-size:xx-large;
+    font-weight: bold;
+}
+.traço {
+    color: black
+}
+.links {
+    color: yellow;
+}
+.links:hover {
+    background-color: black;
+}
+.corpo {
+    background-color: white;
+    padding: 2%;
+    padding-bottom: 3%;
+}
+.corpoh2 {
+    color: #060888;
+    border-bottom: 1px solid #808080;
+}
+.corescorpo {
+    color: red;
+    font-weight: bold;
+}
+.rodape {
+    background-color: #CCCCCC;
+    text-align: center;
+    padding: 5%;
+}
+body {
+    background-color: black;
+}

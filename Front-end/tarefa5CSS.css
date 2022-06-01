@@ -1,0 +1,72 @@
+.cabeçalho {
+    background-color: #0066CB;
+    border: 1px solid #0066CB;
+    padding: 3%;
+    text-align: center;
+}
+.titulo1{
+    text-align: center;
+    color: white;
+    display: block;
+    font-size:xx-large;
+    font-weight: bold;
+}
+.traço {
+    color: black
+}
+.links {
+    color: yellow;
+}
+.links:hover {
+    background-color: black;
+}
+.corpo {
+    background-color: white;
+    padding: 2%;
+    padding-bottom: 3%;
+}
+.corpoh2 {
+    color: #060888;
+    border-bottom: 1px solid #808080;
+}
+.corescorpo {
+    color: red;
+    font-weight: bold;
+}
+.mesa1 {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.mesa1h1 {
+    text-align: left;
+    padding: 10px;
+    font-weight: lighter;
+    background-color: #D1B48C;
+}
+.txtmesa01 {
+    padding: 10px 10px 30px 10px;
+    line-height: 24px;
+}
+.ti1 {
+    font-size: 11px;
+}
+.mesa2 {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.mesa2h2 {
+    text-align: left;
+    padding: 10px;
+    font-weight: lighter;
+    background-color: #CDFFCC;
+}
+.txtmesa02 {
+    padding: 10px 10px 30px 10px;
+    line-height: 24px;
+}
+.ti2 {
+    font-size: 11px;
+}
+body {
+    background-color: black;
+}

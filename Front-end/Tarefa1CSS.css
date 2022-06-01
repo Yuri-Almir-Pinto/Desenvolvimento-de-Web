@@ -1,0 +1,30 @@
+.cabeçalho {
+    background-color: #808080;
+    border: 1px solid #808080;
+    padding: 3%;
+}
+.titulo1{
+    text-align: center;
+    padding: 1px;
+    color: white;
+}
+.corpo {
+    background-color: white;
+    padding: 1%;
+    padding-bottom: 3%;
+}
+.corpoh2 {
+    color: #060888;
+    border-bottom: 1px solid #808080;
+}
+.rodape {
+    background-color: #CCCCCC;
+    text-align: center;
+    padding: 5%;
+}
+.txtrodape {
+    padding: 30px;
+}
+body {
+    background-color: black;
+}
