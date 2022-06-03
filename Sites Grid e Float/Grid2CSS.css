@@ -1,0 +1,58 @@
+body {
+    background-color: #4D4B4C;
+}
+div.container {
+    display: grid;
+    grid-template-areas:    "header"
+                            "conteudo"
+                            "footer";
+    background-color: #4D4B4C;
+    padding: 0px 17% 2% 17%;
+}
+div.header {
+    grid-area: header;
+    background-color: #4D4B4C;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+div.conteudo {
+    grid-area: conteudo;
+    background-color: #434343;
+}
+    div.part1 {
+        display: grid;
+        grid-template-columns: repeat(3, 260px);
+        column-gap: 15px;
+        justify-content: center;
+        padding: 15px;
+    }
+    div.part2 {
+        display: grid;
+        grid-template-columns: repeat(2, 260px);
+        column-gap: 15px;
+        justify-content: center;
+        padding: 15px;
+    }
+        .bg1 {
+            background-color: #F6FFD0;
+        }
+        .bg2 {
+            background-color: #D9FFFF;
+        }
+        .bg3 {
+            background-color: #FEABBD;
+        }
+        div span {
+            padding: 10px;
+        }
+div.footer {
+    grid-area: footer;
+    background-color: #FF7068;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 15px;
+}

@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+}
+div.container {
+    display: grid;
+    grid-template-areas:    "header"
+                            "headerlinks"
+                            "conteudo"
+                            "footer";
+    background-color: white;
+}
+div.header {
+    grid-area: header;
+    text-align: center;
+    background-color: #D1B48C;
+    padding: 1%;
+    color: #05028F
+}
+div.headerlinks {
+    grid-area: headerlinks;
+    background-color: #2E7D9C;
+    text-align: center;
+    color:black;
+    padding: 0.5%;
+}
+    div.headerlinks a {
+        color:yellow;
+    }
+    div.headerlinks a:hover {
+        background-color: black;
+    }
+div.conteudo {
+    grid-area: conteudo;
+    padding: 0px 0px 11% 0.9%;
+}
+    div.txt h2 {
+        color: #05028F;
+        border-bottom: 1px solid black;
+    }
+div.footer {
+    grid-area: footer;
+    background-color: #CCCCCC;
+    text-align: center;
+    padding: 1.6%;
+}

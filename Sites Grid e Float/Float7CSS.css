@@ -1,0 +1,60 @@
+.cabeçalho {
+    background-color: #D1B48C;
+    border: 1px solid #D1B48C;
+    padding: 3%;
+    text-align: center;
+}
+.titulo1{
+    text-align: center;
+    color: #060888;
+    display: block;
+    font-size:xx-large;
+    font-weight: bold;
+}
+.traço {
+    color: black
+}
+.links {
+    color: yellow;
+}
+.links:hover {
+    background-color: black;
+}
+.corpo {
+    background-color: white;
+    padding: 0% 0% 12% 4%;
+    width: 85%;
+    margin-left: 10%;
+}
+.corpoh2 {
+    color: #060888;
+    border-bottom: 1px solid #808080;
+}
+.divlinks {
+    width: 11%;
+    float: left;
+    background-color: #D1B48C;
+    padding: 20px 10px 5px 10px;
+}
+div.divlinks span {
+    display:block;
+    padding: 8.5%;
+    background-color: white;
+    color: #4740BF;
+    line-height: 5px;
+    border-radius: 5px;
+}
+div.divlinks span:hover {
+    background-color: #90EE90;
+}
+.rodape {
+    background-color: #CCCCCC;
+    text-align: center;
+    padding: 2%;
+}
+body {
+    background-color: black;
+}
+.background {
+    background-color: white;
+}
