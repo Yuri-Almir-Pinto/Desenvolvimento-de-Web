@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício JS 3</title>
+    <link href="Exercício JS 3.css" rel="stylesheet">
+</head>
+<body>
+    <div>
+    <h1>- Carrinho -</h1>
+    <span class="break">
+    <label>Nome:</label>
+    <input type="text" id="nome" value="0">
+    <label>Preço:</label>
+    <input type="number" id="preco1" onkeyup="calculo1()" value="0">
+    <label>Quantidade:</label>
+    <input type="number" id="quantidade1" onkeyup="calculo1()" value="0">
+    <button>=</button>
+    <span class="resultados" id="resultado1"></span>
+    </span>
+    <span class="break">
+    <label>Nome:</label>
+    <input type="text" id="nome1" value="0">
+    <label>Preço:</label>
+    <input type="number" id="preco2" onkeyup="calculo2()" value="0">
+    <label>Quantidade:</label>
+    <input type="number" id="quantidade2" onkeyup="calculo2()" value="0">
+    <button>=</button>
+    <span class="resultados" id="resultado2"></span>
+    </span>
+    <span class="break">
+    <label>Nome:</label>
+    <input type="text" id="nome1" value="0">
+    <label>Preço:</label>
+    <input type="number" id="preco3" onkeyup="calculo3()" value="0">
+    <label>Quantidade:</label>
+    <input type="number" id="quantidade3" onkeyup="calculo3()" value="0">
+    <button>=</button>
+    <span class="resultados" id="resultado3"></span>
+    </span>
+    <span id="total"></span>
+    </div>
+    <script>
+        function calculo1 ()
+        {
+        let preco1 = document.querySelector("#preco1");
+        let quantidade1 = document.querySelector("#quantidade1");
+
+        if (quantidade1.value < 0)
+        quantidade1.value = 1;
+        if (preco1.value <0)
+        preco1.value = 0.00;
+
+        resultado1.textContent = `R$ ${parseFloat(preco1.value * quantidade1.value).toFixed(2)}`;
+        resultado1.classList = 'resultadoIndividual';
+
+        total.classList = 'resultadoFinal';
+        total.textContent = `Valor total = R$ ${parseFloat((quantidade1.value*preco1.value) + (quantidade2.value*preco2.value) + (quantidade3.value*preco3.value)).toFixed(2)}`;
+        }
+        function calculo2 ()
+        {
+        let preco2 = document.querySelector("#preco2");
+        let quantidade2 = document.querySelector("#quantidade2");
+
+        if (quantidade2.value < 0)
+        quantidade2.value = 1;
+        if (preco2.value <0)
+        preco2.value = 0.00;
+
+        resultado2.textContent = `R$ ${parseFloat(preco2.value * quantidade2.value).toFixed(2)}`;
+        resultado2.classList = 'resultadoIndividual';
+
+        total.classList = 'resultadoFinal';
+        total.textContent = `Valor total = R$ ${parseFloat((quantidade1.value*preco1.value) + (quantidade2.value*preco2.value) + (quantidade3.value*preco3.value)).toFixed(2)}`;
+        }
+        function calculo3 ()
+        {
+        let preco3 = document.querySelector("#preco3");
+        let quantidade3 = document.querySelector("#quantidade3");
+
+        if (quantidade3.value < 0)
+        quantidade3.value = 1;
+        if (preco3.value <0)
+        preco3.value = 0.00;
+
+        resultado3.textContent = `R$ ${parseFloat(preco3.value * quantidade3.value).toFixed(2)}`;
+        resultado3.classList = 'resultadoIndividual';
+
+        total.classList = 'resultadoFinal';
+        total.textContent = `Valor total = R$ ${parseFloat((quantidade1.value*preco1.value) + (quantidade2.value*preco2.value) + (quantidade3.value*preco3.value)).toFixed(2)}`;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+.break {
+    display: inline-block;
+    margin: 20px 20px 20px 0px;
+    margin-left: 20%;
+}
+h1 {
+    text-align: center;
+}
+#total {
+    display: inline-block;
+    margin-left: 20%;
+    font-size: 30px;
+}
+.resultadoIndividual {
+    background-color: greenyellow;
+    padding: 5px;
+}
+.resultadoFinal {
+    background-color: aqua;
+    padding: 5px;
+}

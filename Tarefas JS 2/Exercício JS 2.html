@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício JS 2</title>
+    <link href="Exercício JS 2.css" rel="stylesheet">
+</head>
+<body>
+    <div id="principal">
+        <h1>- Acerte o resultado! -</h1>
+        <span id="x"></span> + <span id="y"></span> = <input id="z" type="number"> <button onclick="calcular()">Enviar</button>
+        <span id="mensagem"></span>
+    </div>
+    <script>
+        let numero1 = Math.round (Math.random()*100);
+        let numero2 = Math.round (Math.random()*100);
+        x.textContent = numero1;
+        y.textContent = numero2;
+        function calcular ()
+        {
+            let resposta = document.querySelector("#z");
+            if (resposta.value == (numero1 + numero2))
+                mensagem.textContent = `Parabéns! Você acertou a resposta!`;
+            else
+                mensagem.textContent = `Você errou a resposta... Que pena.`;
+        }
+    </script>
+</body>
+</html>
