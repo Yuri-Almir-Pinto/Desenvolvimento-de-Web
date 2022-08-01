@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="imagem1.jpg" id="imagens">
+    <button onclick="proxima()">Próxima imagem</button>
+    <script>
+        let galeria = ["imagem1.jpg", "imagem2.jpg", "imagem3.jpg", "imagem4.jpg", "imagem5.jpg"];
+        let i = 1
+        function proxima ()
+        {
+            let imagens = document.querySelector("#imagens");
+            if (i > galeria.length-1)
+            {
+                i = 0;
+            }
+            imagens.src = galeria[i];
+            i++;
+        }
+    </script>
+</body>
+</html>
