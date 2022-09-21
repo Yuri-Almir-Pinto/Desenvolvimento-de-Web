@@ -1,0 +1,27 @@
+#labels{
+    display: block;
+}
+    label {
+        margin-right: 55px;
+    }
+    label:last-of-type {
+        margin-right: 35px;
+    }
+    #label-conceito {
+        display: block;
+        margin-left: 103px;
+    }
+input {
+    width: 60px;
+    margin-right: 30px;
+}
+    #inputs {
+        display: block;
+        margin-bottom: 5px;
+    }
+button {
+    margin-right: 35px;
+}
+#media {
+    margin-left: 51px;
+}
